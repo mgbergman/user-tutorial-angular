@@ -11,6 +11,7 @@ import { User } from '../user.class';
 export class UserListComponent implements OnInit {
 
   users: User[] = [];
+  tableStyle : string = "table table-sm";
 
 
 
